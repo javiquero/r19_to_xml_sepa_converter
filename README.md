@@ -1,4 +1,4 @@
-# r19_to_xml_sepa_converter
+# Norma 19 to XML (SEPA Core) converter
 Fiile converter norma 19 to xml SEPA Core
 
 Dependences
