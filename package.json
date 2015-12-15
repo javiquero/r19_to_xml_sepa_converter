@@ -1,0 +1,22 @@
+{
+  "name": "r19_to_xml_sepa_converter",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Converts files norma 19 txt to xml SEPA Core",
+  "keywords": [],
+  "dependencies": {
+    "q": "^1.4.1",
+    "sepa": "latest"
+  },
+  "scripts": {
+    "start": "node r19toxml.js",
+    "debug": "node debug r19toxml.js"
+  },
+  "main": "r19toxml.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/javiquero/r19_to_xml_sepa_converter.gith"
+  },
+  "author": "Javier Quero",
+  "license": "GNU v3"
+}
