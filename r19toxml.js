@@ -14,7 +14,7 @@ if ( params.length < 1 ) {showUsage(); return;}
 var SEPA = require("sepa");
 var fs = require('fs');
 var Q = require('q');
-var BICFromIBAN = require ("./bicfromiban/BICFromIBAN");
+var BICFromIBAN = require ("./Bic-from-IBAN/BICFromIBAN");
 
 fs.exists(params[0], function(exists) {
 	if (!exists) { console.log("\nFile: " + params[0] + " not exists."); return;}
